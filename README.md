@@ -20,7 +20,7 @@ We do not currently publish benchmark numbers. We may do so in the future, but a
 
 ## Where it fits (and where it doesn’t)
 
-HWX was built for data-centric workloads (filtering, set operations, string/token processing, and traversal/search over in-memory data), but the primitives can be used anywhere you need predictable, allocation-light kernels with optional acceleration.
+HWX was built for data-centric workloads (filtering, set operations, string/token processing, and traversal/search over in-memory data).
 
 It is **not** a general GPU compute framework or a query engine. For large dense linear algebra, you’ll usually want purpose-built libraries (and different data layouts) rather than HWX’s kernels.
 
