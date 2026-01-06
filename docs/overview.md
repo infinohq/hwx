@@ -15,7 +15,7 @@ Most public functions are exposed from `hwx::dispatch` (re-exported at the crate
 
 - scalar implementations
 - CPU SIMD implementations (AVX2 / NEON on stable; AVX-512 behind `hwx-nightly`)
-- CUDA implementations when available
+- GPU implementations via CUDA when available (PTX kernels; see `docs/cuda.md`)
 
 The dispatch decisions are typically based on the target architecture, runtime capability detection, and input size thresholds.
 

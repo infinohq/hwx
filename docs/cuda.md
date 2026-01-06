@@ -1,6 +1,6 @@
 # CUDA / PTX notes
 
-HWX enables CUDA support when `nvcc` is detected by `build.rs`. Some GPU code is shipped as **PTX** and loaded through the CUDA driver at runtime.
+HWX enables CUDA support when `nvcc` is detected by `build.rs`. GPU kernels are shipped as **PTX** and loaded through the CUDA driver at runtime.
 
 ## Why PTX
 
@@ -17,6 +17,6 @@ If you need to avoid JIT overhead for hot kernels, a common alternative is to sh
 
 HWX caches loaded modules to avoid recompiling on every call.
 
-## Supported targets
+## Supported targets and toolchain
 
-CUDA support primarily targets Linux systems with a working CUDA toolkit installation.
+CUDA support primarily targets Linux systems with a working CUDA toolkit installation (driver + toolkit). HWX also uses `nvcc` for a small CUDA/CUB wrapper where needed.

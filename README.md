@@ -6,8 +6,8 @@ A Rust library of data-processing primitives with scalar fallbacks and optional 
 
 HWX includes a small dispatch layer that selects an implementation based on target capabilities and input sizes.
 
-- **Dispatch**: scalar / CPU SIMD / CUDA (when available)
-- **Targets**: x86_64 (AVX2; AVX-512 behind a nightly feature), aarch64 (NEON), and NVIDIA GPUs via CUDA (when available)
+- **Dispatch**: scalar / CPU SIMD / GPU via CUDA (PTX kernels when available)
+- **Targets**: x86_64 (AVX2; AVX-512 behind a nightly feature), aarch64 (NEON), and NVIDIA GPUs (when CUDA is available)
 
 ## Status
 
