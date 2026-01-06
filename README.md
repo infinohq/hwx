@@ -16,7 +16,7 @@ stabilized and documented.
 
 ## Benchmarks
 
-HWX does not currently publish headline benchmark numbers. Currently our focus is on correctness, predictable behavior, and clear semantics across scalar and accelerated paths.
+HWX does not currently publish benchmark numbers. Currently our focus is on correctness, predictable behavior, and clear semantics across scalar and accelerated paths.
 
 ## Where it fits (and where it doesn’t)
 
