@@ -14,6 +14,10 @@ HWX includes a small dispatch layer that selects an implementation based on targ
 This project is early and evolving. Public APIs may change while the crate is being
 stabilized and documented.
 
+## Benchmarks
+
+HWX does not currently publish headline benchmark numbers. Currently our focus is on correctness, predictable behavior, and clear semantics across scalar and accelerated paths.
+
 ## Where it fits (and where it doesn’t)
 
 HWX was built for database/search-engine style workloads (filtering, set operations, string/token processing, and traversal/search over in-memory data), but the primitives can be used anywhere you need predictable, allocation-light kernels with optional acceleration.
