@@ -49,9 +49,9 @@ HWX currently focuses on:
 
 ## Documentation
 
-- **Overview**: `docs/overview.md`
-- **CUDA/PTX notes**: `docs/cuda.md`
-- **Full primitives reference (all public functions)**: `docs/primitives.md`
+- **Overview**: [`docs/overview.md`](docs/overview.md)
+- **CUDA/PTX notes**: [`docs/cuda.md`](docs/cuda.md)
+- **Full primitives reference (all public functions)**: [`docs/primitives.md`](docs/primitives.md)
 
 ## Architecture
 
