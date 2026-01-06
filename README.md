@@ -16,7 +16,7 @@ stabilized and documented.
 
 ## Benchmarks
 
-We do not currently publish benchmark numbers. We may do in the future, but at the moment our focus is on correctness, predictable behavior, and clear semantics across scalar and accelerated paths.
+We do not currently publish benchmark numbers. We may do so in the future, but at the moment our focus is on correctness, predictable behavior, and clear semantics across scalar and accelerated paths.
 
 ## Where it fits (and where it doesn’t)
 
