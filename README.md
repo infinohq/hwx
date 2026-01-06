@@ -47,6 +47,12 @@ HWX currently focuses on:
 - **Classification**: classify strings into `HwxType`
 - **Traverse/filter**: simple traversal-style helpers (including time-range filtering over `MetricPoint`)
 
+## Documentation
+
+- **Overview**: `docs/overview.md`
+- **CUDA/PTX notes**: `docs/cuda.md`
+- **Full primitives reference (all public functions)**: `docs/primitives.md`
+
 ## Architecture
 
 HWX provides a single API surface; internally, many functions dispatch to the best
