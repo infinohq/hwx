@@ -2,7 +2,7 @@
 
 HWX is a Rust crate of database/search-style data-processing primitives with scalar fallbacks and optional acceleration.
 
-The project started inside a database codebase, but the APIs are intentionally small and "kernel-like": filtering, set operations, traversal/search on sorted arrays, string/token primitives, and a collection of numeric helpers.
+APIs are intentionally small and "kernel-like": filtering, set operations, traversal/search on sorted arrays, string/token primitives, and a collection of numeric helpers.
 
 ## What HWX is (and is not)
 
