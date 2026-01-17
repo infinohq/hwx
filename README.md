@@ -1,6 +1,6 @@
 # HWX Framework
 
-A Rust library of data-processing primitives with scalar fallbacks and optional hardware acceleration.
+A experimental Rust library of data-processing primitives with scalar fallbacks and optional hardware acceleration.
 
 ## Overview
 
