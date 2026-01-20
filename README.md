@@ -1,6 +1,6 @@
 # HWX Framework
 
-A experimental library to see how far we can push LLMs for low-level code. HWX is a set of data-processing primitives with scalar fallbacks and optional hardware acceleration. Written in Rust, PTX, and Cuda. 
+A experimental library to see how far we can push LLMs for low-level code and get hardware acceleration into a database. Along these lines, HWX is a set of data-processing primitives with scalar fallbacks and optional hardware acceleration. Written in Rust, PTX, and Cuda. 
 
 ## Overview
 
